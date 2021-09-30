@@ -39,4 +39,4 @@ jobs:
         uses: StirlingLabs/GithubNugetAuthAction@v21.08.0
         
       - name: Build the Solution
-        run: msbuild TravelExperts.WebForms.sln
+        run: msbuild TravelExperts.MVC.sln
